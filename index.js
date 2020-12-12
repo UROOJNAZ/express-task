@@ -27,20 +27,7 @@ app.get ('/contact',(req,res) =>{
     res.send('look our team plan for services')
     
 });
-app.get ('/the FAQ page',(req,res) =>{
-    res.send('look our team plan for services')
-    
-});
 
-app.get ('/home',(req,res) =>{
-    res.send('A request for things received at')
-    
-});
-
-app.get ('/the FAQ page',(req,res) =>{
-    res.send('look our team plan for services')
-    
-});
 app.listen(port,() =>{
 console.log(`example app listening on port ${port}!`);
 });
